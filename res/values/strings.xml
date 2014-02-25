@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">µInventory BETA</string>
+	<string name="credit_xzing">This App uses the Barcode Scanner App by zxing to scan Barcodes. Find out more on http://code.google.com/p/zxing/</string>
+	<string name="scan">Scan new articles</string>
+	<string name="list">List scanned articles</string>
+	<string name="export_mail">Export via mail</string>
+	<string name="export_clipboard">Export by copying csv to clipboard</string>
+	<string name="settings">Settings</string>
+	<string name="about">About this app</string>
+	<string name="clipboard_success">Successfully copied to clipboard!</string>
+	<string name="csv_mail_header">CSV Data</string>
+	<string name="send_mail">Send via Mail..</string>
+	<string name="missing_barcode_scanner_dialog_title">Barcode Scanner not installed!</string>
+	<string name="missing_barcode_scanner_dialog_message">The free Barcode Scanner App by zxing is required to scan Barcodes. You can install it from Android Market or download the latest apk from their website.</string>
+	<string name="missing_barcode_scanner_dialog_market">Market</string>
+	<string name="missing_barcode_scanner_dialog_web">Website</string>
+	<string name="missing_barcode_scanner_dialog_later">Later</string>
+	<string name="barcode">Barcode</string>
+	<string name="code">Code</string>
+	<string name="format">Format</string>
+	<string name="example_code">e.g. 0123456</string>
+	<string name="example_format">e.g. EAN_13</string>
+	<string name="scan_barcode">Scan barcode</string>
+	<string name="name_and_price">Name, Price &amp; Amount</string>
+	<string name="name">Name</string>
+	<string name="example_name">e.g. Blue Jeans</string>
+	<string name="price">Price</string>
+	<string name="example_price">e.g. 78.97</string>
+	<string name="description">Description</string>
+	<string name="hint_description">optional</string>
+	<string name="save">Save</string>
+	<string name="delete">Delete</string>
+	<string name="amount">Amount</string>
+	<string name="example_amount">15</string>
+	<string name="cancel">Cancel</string>
+	<string name="delete_dialog_title">Delete</string>
+	<string name="delete_dialog_message">Do you really want to delete this article?</string>
+	<string name="title_quick_scan">Quick Scan</string>
+	<string name="sum_quick_scan_on">After saving a new article all fields will be automatically cleared and a new scan will be triggered</string>
+	<string name="sum_quick_scan_off">After saving a new article you will have to clear all fields by hand and trigger scanning with the button</string>
+	<string name="deletedb">Delete entire database</string>
+	<string name="sum_deletedb">Will delete the entire database.</string>
+	<string name="deletedb_dialog_title">Delete database</string>
+	<string name="deletedb_dialog_message">Do you really want to delete the entire database? This cannot be made undone.</string>
+	<string name="empty_list_info">There are no articles to display. Go and scan some!</string>
+	<string name="about_text">This app was developed by Ansgar Mertens (see http://www.c-labs-android.de)\n\nSome Menu Icons are licensed under a Creative Commons License as follows:\n\nThis work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.\n\nThese icons can be used both commercially and for personal use, but you must always add a link to www.androidicons.com inside your software or your website. You must not resell any icons or distribute them in any other way than referring to www.androidicons.com. The Icons as such are the property of the author.</string>
+	    
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <CheckBoxPreference android:title="@string/title_quick_scan" android:key="quickscan" android:defaultValue="true" android:summaryOn="@string/sum_quick_scan_on" android:summaryOff="@string/sum_quick_scan_off"/>
+    <Preference android:summary="@string/sum_deletedb" android:title="@string/deletedb" android:key="deletedb"/>
+    
+
+</PreferenceScreen>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<ScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:scrollbars="vertical" >
+	    
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/barcode"
+		        android:textSize="20sp"
+		        android:textStyle="bold" />
+		
+		    <TableLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+		
+		        <TableRow
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:gravity="center" >
+		
+		            <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:text="@string/code" />
+		
+		            <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:text="@string/format" />
+		
+		        </TableRow>
+		
+		        <TableRow
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:gravity="center" >
+		
+		            <EditText
+		                android:id="@+id/et_code"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginRight="10dp"
+		                android:layout_weight="1"
+		                android:hint="@string/example_code"
+		                android:inputType="number"
+		                android:singleLine="true" >
+
+		                
+		            </EditText>
+		
+		            <EditText
+		                android:id="@+id/et_format"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:hint="@string/example_format"
+		                android:singleLine="true" >
+		            </EditText>
+		
+		        </TableRow>
+		    </TableLayout>
+		
+		    <Button
+		        android:id="@+id/bt_scan"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/scan_barcode" />
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/name_and_price"
+		        android:textSize="20sp"
+		        android:textStyle="bold" />
+		
+		    <TableLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" >
+		
+		        <TableRow
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:gravity="center" >
+		
+		            <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/name"
+		                android:textSize="20sp" />
+		
+		            <EditText
+		                android:id="@+id/et_name"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:hint="@string/example_name" />
+		        </TableRow>
+		
+		        <TableRow
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:gravity="center" >
+		
+		            <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/price"
+		                android:textSize="20sp" />
+		
+		            <EditText
+		                android:id="@+id/et_price"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:hint="@string/example_price"
+		                android:inputType="numberDecimal" />
+		
+		        </TableRow>
+
+		        <TableRow
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:gravity="center" >
+
+		            <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/amount"
+		                android:textSize="20sp" />
+
+		            <EditText
+		                android:id="@+id/et_amount"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:gravity="center"
+		                android:hint="@string/example_amount"
+		                android:inputType="number"
+		                android:text="1" />
+
+		            <Button
+		                android:id="@+id/bt_minusone"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="-1" />
+
+		            <Button
+		                android:id="@+id/bt_minusten"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="-10" />
+
+		            <Button
+		                android:id="@+id/bt_plusten"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="+10" />
+
+		            <Button
+		                android:id="@+id/bt_plusone"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="+1" />
+
+		        </TableRow>
+		
+		    </TableLayout>
+		
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/description"
+		        android:textSize="20sp"
+		        android:textStyle="bold" />
+		
+		    <EditText
+		        android:id="@+id/et_description"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="left|top"
+		        android:hint="@string/hint_description"
+		        android:inputType="textMultiLine"
+		        android:lines="3" />
+		
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+		<Button
+		    android:id="@+id/bt_save"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/save" />
+
+		<Button
+		    android:id="@+id/bt_delete"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/delete"
+		    android:visibility="gone" />
+
+	</LinearLayout>
+
+</LinearLayout>

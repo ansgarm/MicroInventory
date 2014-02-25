@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">µInventur BETA</string>
+    <string name="credit_xzing">Diese App benutzt die Barcode Scanner App von zxing um Barcodes zu erkennen. Mehr dazu auf http://code.google.com/p/zxing/</string>
+	<string name="scan">Neue Artikel scannen</string>
+	<string name="list">Gescannte Artikel auflisten</string>
+	<string name="export_mail">Exportieren per Mail</string>
+	<string name="export_clipboard">Exportieren per Zwischenablage</string>
+	<string name="settings">Einstellungen</string>
+	<string name="about">Über diese App</string>
+	<string name="clipboard_success">Erfolgreich in die Zwischenablage kopiert!</string>
+	<string name="csv_mail_header">CSV Daten</string>
+	<string name="send_mail">Per Mail senden..</string>
+	<string name="missing_barcode_scanner_dialog_title">Barcode Scanner nicht installiert!</string>
+	<string name="missing_barcode_scanner_dialog_message">Zum Scannen von Barcodes wird die kostenlose Barcode Scanner App von zxing benötigt. Man kann sie entweder über den Market installieren oder die apk von der Website laden.</string>
+	<string name="missing_barcode_scanner_dialog_market">Market</string>
+	<string name="missing_barcode_scanner_dialog_web">Website</string>
+	<string name="missing_barcode_scanner_dialog_later">Später</string>
+	<string name="barcode">Barcode</string>
+	<string name="code">Code</string>
+	<string name="format">Format</string>
+	<string name="example_code">z.B. 0123456</string>
+	<string name="example_format">z.B. EAN_13</string>
+	<string name="scan_barcode">Barcode scannen</string>
+	<string name="name_and_price">Name, Preis &amp; Menge</string>
+	<string name="name">Name</string>
+	<string name="example_name">z.B. Blaue Jeans</string>
+	<string name="price">Preis</string>
+	<string name="example_price">z.B. 78.97</string>
+	<string name="description">Beschreibung</string>
+	<string name="hint_description">optional</string>
+	<string name="save">Speichern</string>
+	<string name="delete">Löschen</string>
+	<string name="amount">Menge</string>
+	<string name="example_amount">15</string>
+	<string name="cancel">Abbrechen</string>
+	<string name="delete_dialog_title">Löschen</string>
+	<string name="delete_dialog_message">Soll dieser Artikel wirklich gelöscht werden?</string>
+	<string name="title_quick_scan">Schnelles Scannen</string>
+	<string name="sum_quick_scan_on">Nach speichern eines neuen Artikels werden alle Felder automatisch geleert und der BarcodeScanner gestartet</string>
+	<string name="sum_quick_scan_off">Alle Felder müssen von Hand geleert werden und der Scan muss über den Button ausgelöst werden</string>
+	<string name="deletedb">Gesamte Datenbank löschen</string>
+	<string name="sum_deletedb">Wird die gesamte Datenbank löschen.</string>
+	<string name="deletedb_dialog_title">Datenbank löschen</string>
+	<string name="deletedb_dialog_message">Soll die gesamte Datenbank wirklich gelöscht werden? Dies kann nicht rückgängig gemacht werden.</string>
+	<string name="empty_list_info">Es gibt keine Artikel zum Anzeigen. Scanne welche!</string>
+	<string name="about_text">Diese App wurde von Ansgar Mertens entwickelt (http://www.c-labs-android.de)\n\nEinige Menu Icons stehen unter einer Creative Commons Lizenz:\n\nThis work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.\n\nThese icons can be used both commercially and for personal use, but you must always add a link to www.androidicons.com inside your software or your website. You must not resell any icons or distribute them in any other way than referring to www.androidicons.com. The Icons as such are the property of the author.</string>    
+	    
+</resources>

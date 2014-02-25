@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bt_scan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_menu_barcode"
+                android:enabled="false"
+                android:text="@string/scan" />
+
+            <Button
+                android:id="@+id/bt_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_menu_database"
+                android:text="@string/list" />
+
+            <Button
+                android:id="@+id/bt_export_mail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_menu_send"
+                android:text="@string/export_mail" />
+
+            <Button
+                android:id="@+id/bt_export_clipboard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_menu_upload"
+                android:text="@string/export_clipboard" />
+
+            <Button
+                android:id="@+id/bt_settings"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_menu_preferences"
+                android:text="@string/settings" />
+
+            <Button
+                android:id="@+id/bt_about"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_menu_info_details"
+                android:text="@string/about" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/credit_xzing"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+</ScrollView>
